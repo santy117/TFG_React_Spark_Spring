@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d810d005-bfbd-46b2-8347-b29b3a739dc9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1bOULNiPIkfiDt9QUF7YvmzJb0e" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="project.Application" />
+      <module name="consuming-rest.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="project.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d810d005-bfbd-46b2-8347-b29b3a739dc9" name="Default Changelist" comment="" />
+      <created>1588502576111</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1588502576111</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588503032291">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="184" y="123" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1588503032291" />
+    <state x="457" y="252" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588503029634">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="457" y="252" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.877@0.23.1440.877" timestamp="1588503029634" />
+    <state width="699" height="230" key="GridCell.Tab.0.bottom" timestamp="1588503429196">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="699" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1588503429196" />
+    <state width="699" height="230" key="GridCell.Tab.0.center" timestamp="1588503429194">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="699" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1588503429194" />
+    <state width="699" height="230" key="GridCell.Tab.0.left" timestamp="1588503429194">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="699" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1588503429194" />
+    <state width="699" height="230" key="GridCell.Tab.0.right" timestamp="1588503429195">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="699" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1588503429195" />
+    <state x="208" y="43" key="SettingsEditor" timestamp="1588503168339">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="208" y="43" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1588503168339" />
+  </component>
+</project>

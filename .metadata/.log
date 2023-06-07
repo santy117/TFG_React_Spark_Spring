@@ -1,0 +1,651 @@
+!SESSION 2020-05-03 11:58:43.948 -----------------------------------------------
+eclipse.buildId=4.5.0.201912171052-RELEASE
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/santi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -data /Users/santi/Desktop/WORKSHOP TFG -product org.springframework.boot.ide.branding.sts4 -keyring /Users/santi/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2020-05-03 11:58:58.577
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-03 11:58:58.581
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@194eae3e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ab39942,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:02.160
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:02.180
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6ecf239d[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:02.182
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:02.243
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.051
+!MESSAGE Boot LS startup time from start to initialized: 10854ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.246
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YVmROHgyisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.253
+!MESSAGE subscribing to classpath changes: sts4.classpath.YVmROHgy isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.264
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.269
+!MESSAGE subsribers = {sts4.classpath.YVmROHgy=Send Classpath Notifications(127)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.270
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.271
+!MESSAGE project ServicioWebTFG ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.272
+!MESSAGE Preparing classpath changed notification ServicioWebTFG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.273
+!MESSAGE project SparkStreaming ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.273
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.274
+!MESSAGE project SparkStreamingProductores ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.275
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.275
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.YVmROHgy => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.283
+!MESSAGE classpath=89 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.285
+!MESSAGE buffering callback sts4.classpath.YVmROHgy ServicioWebTFG false 89
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.286
+!MESSAGE Preparing classpath changed notification SparkStreaming
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.287
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.294
+!MESSAGE classpath=163 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.297
+!MESSAGE buffering callback sts4.classpath.YVmROHgy SparkStreaming false 163
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.298
+!MESSAGE Preparing classpath changed notification SparkStreamingProductores
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.299
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.306
+!MESSAGE classpath=148 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.309
+!MESSAGE buffering callback sts4.classpath.YVmROHgy SparkStreamingProductores false 148
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.309
+!MESSAGE executing callback sts4.classpath.YVmROHgy 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:13.464
+!MESSAGE executing callback sts4.classpath.YVmROHgy SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-05-03 12:00:30.336
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:41.887
+!MESSAGE Preparing classpath changed notification SparkStreaming
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:41.888
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:41.888
+!MESSAGE buffering callback sts4.classpath.YVmROHgy SparkStreaming true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:41.889
+!MESSAGE Preparing classpath changed notification SparkStreamingConsumidor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:41.890
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:41.892
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:41.893
+!MESSAGE buffering callback sts4.classpath.YVmROHgy SparkStreamingConsumidor false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:41.893
+!MESSAGE executing callback sts4.classpath.YVmROHgy 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:41.905
+!MESSAGE executing callback sts4.classpath.YVmROHgy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:43.534
+!MESSAGE Preparing classpath changed notification SparkStreamingConsumidor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:43.535
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:43.579
+!MESSAGE classpath=163 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:43.588
+!MESSAGE buffering callback sts4.classpath.YVmROHgy SparkStreamingConsumidor false 163
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:43.589
+!MESSAGE executing callback sts4.classpath.YVmROHgy 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:00:43.603
+!MESSAGE executing callback sts4.classpath.YVmROHgy SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:38:38.853
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YVmROHgy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:38:38.862
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.YVmROHgy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:38:38.862
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:38:38.863
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YVmROHgy => OK
+!SESSION 2020-05-03 12:57:18.186 -----------------------------------------------
+eclipse.buildId=4.5.0.201912171052-RELEASE
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/santi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/santi/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2020-05-03 12:57:40.418
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-03 12:57:40.418
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@229d508c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5e83298e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:48.867
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:48.868
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5a640f98[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:48.870
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:48.938
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.030
+!MESSAGE Boot LS startup time from start to initialized: 10113ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.139
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.eTkzRxyoisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.149
+!MESSAGE subscribing to classpath changes: sts4.classpath.eTkzRxyo isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.153
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.156
+!MESSAGE subsribers = {sts4.classpath.eTkzRxyo=Send Classpath Notifications(86)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.157
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.158
+!MESSAGE project ServicioWebTFG ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.159
+!MESSAGE project SparkStreamingConsumidor ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.159
+!MESSAGE Preparing classpath changed notification ServicioWebTFG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.160
+!MESSAGE project SparkStreamingProductores ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.160
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.161
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.161
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.eTkzRxyo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.169
+!MESSAGE classpath=89 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.171
+!MESSAGE buffering callback sts4.classpath.eTkzRxyo ServicioWebTFG false 89
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.172
+!MESSAGE Preparing classpath changed notification SparkStreamingConsumidor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.172
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.181
+!MESSAGE classpath=163 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.185
+!MESSAGE buffering callback sts4.classpath.eTkzRxyo SparkStreamingConsumidor false 163
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.185
+!MESSAGE Preparing classpath changed notification SparkStreamingProductores
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.186
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.193
+!MESSAGE classpath=148 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.196
+!MESSAGE buffering callback sts4.classpath.eTkzRxyo SparkStreamingProductores false 148
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:57:59.197
+!MESSAGE executing callback sts4.classpath.eTkzRxyo 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-03 12:58:01.292
+!MESSAGE executing callback sts4.classpath.eTkzRxyo FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2020-05-03 12:58:01.292
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1957)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2092)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:197)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:168)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2020-05-03 13:37:25.830
+!MESSAGE 
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2093)
+	at org.springframework.tooling.boot.ls.jdt.LSPTextHover.getHoverInfo(LSPTextHover.java:109)
+	at org.springframework.tooling.boot.ls.jdt.SpringBootJavaHoverProvider.getHoverInfo2(SpringBootJavaHoverProvider.java:42)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:165)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:132)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-05 00:04:03.875
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eTkzRxyo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-05 00:04:03.881
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.eTkzRxyo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-05 00:04:03.882
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-05 00:04:03.882
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.eTkzRxyo => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-05-05 00:04:05.228
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-05-07 10:52:49.911 -----------------------------------------------
+eclipse.buildId=4.5.0.201912171052-RELEASE
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/santi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/santi/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2020-05-07 10:53:03.175
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-07 10:53:03.175
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4407fea2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@64e3bc2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:11.110
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:11.112
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5d0ca8a5[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:11.114
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:11.191
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:20.974
+!MESSAGE Boot LS startup time from start to initialized: 9833ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.083
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.cMErcPCaisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.093
+!MESSAGE subscribing to classpath changes: sts4.classpath.cMErcPCa isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.097
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.102
+!MESSAGE subsribers = {sts4.classpath.cMErcPCa=Send Classpath Notifications(80)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.102
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.103
+!MESSAGE project ServicioWebTFG ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.104
+!MESSAGE project SparkStreamingConsumidor ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.104
+!MESSAGE Preparing classpath changed notification ServicioWebTFG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.105
+!MESSAGE project SparkStreamingProductores ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.105
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.106
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.106
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.cMErcPCa => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.144
+!MESSAGE classpath=89 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.148
+!MESSAGE buffering callback sts4.classpath.cMErcPCa ServicioWebTFG false 89
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.148
+!MESSAGE Preparing classpath changed notification SparkStreamingConsumidor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.149
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.157
+!MESSAGE classpath=163 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.160
+!MESSAGE buffering callback sts4.classpath.cMErcPCa SparkStreamingConsumidor false 163
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.160
+!MESSAGE Preparing classpath changed notification SparkStreamingProductores
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.161
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.178
+!MESSAGE classpath=148 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.181
+!MESSAGE buffering callback sts4.classpath.cMErcPCa SparkStreamingProductores false 148
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.182
+!MESSAGE executing callback sts4.classpath.cMErcPCa 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-07 10:53:21.297
+!MESSAGE executing callback sts4.classpath.cMErcPCa SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 00:43:20.926
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.cMErcPCa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 00:43:20.929
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.cMErcPCa
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 00:43:20.930
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 00:43:20.931
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.cMErcPCa => OK
+
+!ENTRY org.eclipse.ui 2 2 2020-05-10 00:43:21.686
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+!SESSION 2020-05-10 11:06:01.575 -----------------------------------------------
+eclipse.buildId=4.5.0.201912171052-RELEASE
+java.version=13.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/santi/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/santi/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2020-05-10 11:06:15.276
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-05-10 11:06:15.276
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@232b3b4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@261609a7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:23.513
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:23.514
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5f745970[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=625)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:23.516
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:23.573
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.159
+!MESSAGE Boot LS startup time from start to initialized: 10626ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.257
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qlIYsvntisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.265
+!MESSAGE subscribing to classpath changes: sts4.classpath.qlIYsvnt isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.269
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.272
+!MESSAGE subsribers = {sts4.classpath.qlIYsvnt=Send Classpath Notifications(77)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.272
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.273
+!MESSAGE project SparkStreamingConsumidor ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.275
+!MESSAGE project ServicioWebTFG ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.275
+!MESSAGE Preparing classpath changed notification SparkStreamingConsumidor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.276
+!MESSAGE project SparkStreamingProductores ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.276
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.278
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.279
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.qlIYsvnt => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.373
+!MESSAGE classpath=163 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.381
+!MESSAGE buffering callback sts4.classpath.qlIYsvnt SparkStreamingConsumidor false 163
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.382
+!MESSAGE Preparing classpath changed notification ServicioWebTFG
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.382
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.409
+!MESSAGE classpath=89 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.472
+!MESSAGE buffering callback sts4.classpath.qlIYsvnt ServicioWebTFG false 89
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.472
+!MESSAGE Preparing classpath changed notification SparkStreamingProductores
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.473
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.484
+!MESSAGE classpath=148 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.594
+!MESSAGE buffering callback sts4.classpath.qlIYsvnt SparkStreamingProductores false 148
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.595
+!MESSAGE executing callback sts4.classpath.qlIYsvnt 3 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-10 11:06:34.692
+!MESSAGE executing callback sts4.classpath.qlIYsvnt SUCCESS [done]
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2020-05-14 19:34:15.231
+!MESSAGE DebugException: Terminate failed
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:298)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:155)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:178)
+	at org.springsource.ide.eclipse.commons.ui.launch.StopProcessPullDownToolbarDelegate.performOperation(StopProcessPullDownToolbarDelegate.java:22)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown$2.run(AbstractLaunchToolbarPulldown.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2020-05-14 19:34:15.240
+!MESSAGE Terminate failed
+
+!ENTRY org.springsource.ide.eclipse.commons.frameworks.core 4 0 2020-05-15 20:22:27.550
+!MESSAGE DebugException: Terminate failed
+!STACK 1
+org.eclipse.debug.core.DebugException: Terminate failed
+	at org.eclipse.debug.core.Launch.terminate(Launch.java:298)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:155)
+	at org.springsource.ide.eclipse.commons.ui.launch.LaunchUtils.terminate(LaunchUtils.java:178)
+	at org.springsource.ide.eclipse.commons.ui.launch.StopProcessPullDownToolbarDelegate.performOperation(StopProcessPullDownToolbarDelegate.java:22)
+	at org.springsource.ide.eclipse.commons.ui.launch.AbstractLaunchToolbarPulldown$2.run(AbstractLaunchToolbarPulldown.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.debug.core 4 5010 2020-05-15 20:22:27.550
+!MESSAGE Terminate failed
+
+!ENTRY org.eclipse.ui 2 2 2020-05-18 12:32:32.263
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-18 12:33:00.127
+!MESSAGE Preparing classpath changed notification SparkStreamingProductoresNoAleat
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-18 12:33:00.132
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-18 12:33:00.154
+!MESSAGE classpath=5 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-18 12:33:00.155
+!MESSAGE buffering callback sts4.classpath.qlIYsvnt SparkStreamingProductoresNoAleat false 5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-18 12:33:00.155
+!MESSAGE executing callback sts4.classpath.qlIYsvnt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-18 12:33:00.176
+!MESSAGE executing callback sts4.classpath.qlIYsvnt SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-18 12:33:03.695
+!MESSAGE Preparing classpath changed notification SparkStreamingProductoresNoAleat
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-18 12:33:03.696
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-18 12:33:03.700
+!MESSAGE classpath=148 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-18 12:33:03.703
+!MESSAGE buffering callback sts4.classpath.qlIYsvnt SparkStreamingProductoresNoAleat false 148
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-18 12:33:03.704
+!MESSAGE executing callback sts4.classpath.qlIYsvnt 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-05-18 12:33:03.717
+!MESSAGE executing callback sts4.classpath.qlIYsvnt SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-19 16:19:31.385
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qlIYsvnt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-19 16:19:31.387
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.qlIYsvnt
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-19 16:19:31.387
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-06-19 16:19:31.388
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.qlIYsvnt => OK
